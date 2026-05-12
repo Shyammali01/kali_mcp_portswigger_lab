@@ -157,6 +157,7 @@ Once connected, the Output panel confirms **12 tools discovered** and shows:
 **Difficulty:** Apprentice/Practitioner
 
 #### Prompt Given to Claude (via MCP)
+
 ```
 find the sql injection bug on this server
 https://0a25004b04705b8b80d244f600730080.web-security-academy.net/
@@ -164,10 +165,27 @@ using mcp-kali and professional report of this bug
 ```
 
 #### How Claude Used the MCP Tools
-1. Claude called `sqlmap_scan` via MCP on the target URL
+1. Claude called `mcp=kali` via MCP on the target URL
 2. Identified injectable parameters automatically
 3. Generated a professional vulnerability report
 
-![Lab Solution](screenshots/03-lab-solutions/ss-10-tools-discovered.png)
+---
 
+### Lab: SQL Injection Vulnerability Discovery
+**Platform:** PortSwigger Web Security Academy  
+**Category:** Path Traversal  
+**Difficulty:** Apprentice/Practitioner
+
+#### Prompt Given to Claude (via MCP)
+
+```
+find the sql injection bug on this server
+https://0a5d00d103b873d48035e444007800e5.web-security-academy.net/
+using mcp-kali and professional report of this bug
+```
+
+#### How Claude Used the MCP Tools
+1. Claude called `mcp-kali` via MCP on the target URL
+2. Identified injectable parameters automatically
+3. Generated a professional vulnerability report
 ---
