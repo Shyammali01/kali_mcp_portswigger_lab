@@ -151,7 +151,7 @@ Once connected, the Output panel confirms **12 tools discovered** and shows:
 
 ## 🧪 Lab Walkthrough
 
-### Lab: SQL Injection Vulnerability Discovery
+### Lab01: SQL Injection Vulnerability Discovery
 **Platform:** PortSwigger Web Security Academy  
 **Category:** SQL Injection  
 **Difficulty:** Apprentice/Practitioner
@@ -171,7 +171,7 @@ using mcp-kali and professional report of this bug
 
 ---
 
-### Lab: SQL Injection Vulnerability Discovery
+### Lab01: SQL Injection Vulnerability Discovery
 **Platform:** PortSwigger Web Security Academy  
 **Category:** Path Traversal  
 **Difficulty:** Apprentice/Practitioner
