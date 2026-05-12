@@ -129,7 +129,7 @@ In VS Code: `Ctrl+Shift+P` → **Agent Customizations** → **MCP Servers**
 
 You should see `mcp-kali` listed (may show as "Stopped" initially).
 
-![MCP Server Setup](screenshots/Screenshot%202026-05-12%20112753.png)
+![MCP Server Setup](screenshots/Screenshot%202026-05-12%20112712.png)
 
 ---
 
@@ -137,7 +137,7 @@ You should see `mcp-kali` listed (may show as "Stopped" initially).
 
 Right-click `mcp-kali` → **Start Server**
 
-![Start Server](screenshots/02-configuration/ss-09-start-server-menu.png)
+![Start Server](screenshots/Screenshot%202026-05-12%20112753.png)
 
 Once connected, the Output panel confirms **12 tools discovered** and shows:
 ```
