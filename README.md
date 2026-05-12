@@ -75,22 +75,20 @@ Paste this configuration:
 
 ```json
 {
-  "mcpServers": {
-    "mcp-kali-server": {
+  "servers": {
+    "mcp-kali": {
       "command": "mcp-server",
-      "args": [
-        "--server",
-        "http://127.0.0.1:5000/"
-      ],
-      "description": "MCP Kali Server",
-      "timeout": 3000,
-      "alwaysAllow": []
+        "args": [
+          "--server",
+          "http://127.0.0.1:5000/"
+        ],
+        "description": "MCP Kali Server",
+        "timeout": 3000,
+        "alwaysAllow": []
     }
   }
 }
 ```
-
-![MCP JSON Config](screenshots/02-configuration/ss-05-mcp-json-v1.png)
 
 ---
 
@@ -100,22 +98,21 @@ Some versions of the VS Code MCP extension use a `Servers` key instead:
 
 ```json
 {
-  "Servers": {
-    "mcp-kali": {
-      "command": "mcp-server",
-      "args": [
-        "--server",
-        "http://127.0.0.1:5000/"
-      ],
-      "description": "MCP Kali Server",
-      "timeout": 3000,
-      "alwaysAllow": []
+  "mcpServers": {
+    "mcp-kali-server": {
+      "command": "python3",
+        "args": [
+          "/absolute/path/to/client.py",
+          "--server",
+          "http://LINUX_IP:5000/"
+        ],
+        "description": "MCP Kali Server",
+        "timeout": 300,
+        "alwaysAllow": []
     }
   }
 }
 ```
-
-![MCP JSON v2](screenshots/02-configuration/ss-06-mcp-json-v2.png)
 
 ---
 
@@ -124,9 +121,6 @@ Some versions of the VS Code MCP extension use a `Servers` key instead:
 ```bash
 code .
 ```
-
-![VS Code Open](screenshots/02-configuration/ss-07-code-dot.png)
-
 ---
 
 ### Step 6 — Verify MCP Server is Detected
