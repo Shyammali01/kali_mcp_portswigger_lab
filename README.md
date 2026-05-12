@@ -171,7 +171,7 @@ using mcp-kali and professional report of this bug
 
 ---
 
-### Lab01: SQL Injection Vulnerability Discovery
+### Lab02: SQL Injection Vulnerability Discovery
 **Platform:** PortSwigger Web Security Academy  
 **Category:** Path Traversal  
 **Difficulty:** Apprentice/Practitioner
