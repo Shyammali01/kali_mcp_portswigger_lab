@@ -1,4 +1,4 @@
-🔐 Kali MCP Server × PortSwigger Web Security Labs
+# 🔐 Kali MCP Server × PortSwigger Web Security Labs
 
 > **AI-Assisted Penetration Testing** — Using Model Context Protocol (MCP) to solve 
 > real-world web vulnerabilities on PortSwigger Web Security Academy  
@@ -41,7 +41,11 @@ enabling fully **agentic, AI-driven penetration testing workflows**.
 sudo apt install mcp-kali-server
 ```
 
-![Installation](screenshots/Screenshot 2026-05-11 160852.png)
+![Installation](screenshots/Screenshot%202026-05-11%20160852.png)
+
+> ✅ If already installed, APT confirms the latest version is present.
+
+![Already Installed](screenshots/01-installation/ss-02-already-installed.png)
 
 ---
 
