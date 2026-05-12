@@ -41,11 +41,7 @@ enabling fully **agentic, AI-driven penetration testing workflows**.
 sudo apt install mcp-kali-server
 ```
 
-![Installation](screenshots/Screenshot%202026-05-11%20160852.png)
-
 > ✅ If already installed, APT confirms the latest version is present.
-
-![Already Installed](screenshots/01-installation/ss-02-already-installed.png)
 
 ---
 
@@ -60,9 +56,6 @@ Then start the Kali API server (Flask-based, runs on `127.0.0.1:5000`):
 ```bash
 kali-server-mcp
 ```
-
-![Server Start](screenshots/01-installation/ss-03-server-start.png)
-
 > The server starts a Flask app and listens on `http://127.0.0.1:5000`
 
 ---
@@ -78,9 +71,6 @@ mkdir ~/kali-mcp
 cd ~/kali-mcp
 nano .vscode/mcp.json
 ```
-
-![Nano Command](screenshots/02-configuration/ss-04-nano-command.png)
-
 Paste this configuration:
 
 ```json
