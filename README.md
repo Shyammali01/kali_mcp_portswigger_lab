@@ -41,11 +41,7 @@ enabling fully **agentic, AI-driven penetration testing workflows**.
 sudo apt install mcp-kali-server
 ```
 
-![Installation](screenshots/01-installation/ss-01-install.png)
-
-> ✅ If already installed, APT confirms the latest version is present.
-
-![Already Installed](screenshots/01-installation/ss-02-already-installed.png)
+![Installation](screenshots/Screenshot 2026-05-11 160852.png)
 
 ---
 
