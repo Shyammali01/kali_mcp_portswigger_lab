@@ -129,7 +129,7 @@ In VS Code: `Ctrl+Shift+P` → **Agent Customizations** → **MCP Servers**
 
 You should see `mcp-kali` listed (may show as "Stopped" initially).
 
-![MCP Stopped](screenshots/Screenshot%2026-05-12%112753.png)
+![MCP Server Setup](screenshots/Screenshot%202026-05-12%20112753.png)
 
 ---
 
