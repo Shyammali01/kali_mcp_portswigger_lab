@@ -136,7 +136,7 @@ You should see `mcp-kali` listed (may show as "Stopped" initially).
 ### Step 7 — Start the MCP Server from VS Code
 
 Right-click `mcp-kali` → **Start Server**
-
+screenshots/Screenshot 2026-05-12 153604.png
 ![Start Server](screenshots/Screenshot%202026-05-12%20112753.png)
 
 Once connected, the Output panel confirms **12 tools discovered** and shows:
@@ -146,7 +146,7 @@ Once connected, the Output panel confirms **12 tools discovered** and shows:
 [INFO] Discovered 12 tools
 ```
 
-![Tools Discovered](screenshots/02-configuration/ss-10-tools-discovered.png)
+![Tools Discovered](screenshots/Screenshot%2026-05-12%153604.png)
 
 ---
 
