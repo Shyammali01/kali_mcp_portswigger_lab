@@ -146,8 +146,7 @@ Once connected, the Output panel confirms **12 tools discovered** and shows:
 [INFO] Discovered 12 tools
 ```
 
-![Tools Discovered](screenshots/Screenshot%2026-05-12%153604.png)
-
+![Kali MCP Logs](screenshots/Screenshot%202026-05-12%20153604.png)
 ---
 
 ## 🧪 Lab Walkthrough
