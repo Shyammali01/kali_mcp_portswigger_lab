@@ -165,13 +165,14 @@ using mcp-kali and professional report of this bug
 ```
 
 #### How Claude Used the MCP Tools
-1. Claude called `mcp=kali` via MCP on the target URL
+1. Claude called `mcp-kali` via MCP on the target URL
 2. Identified injectable parameters automatically
 3. Generated a professional vulnerability report
 
 ---
 
-### Lab02: SQL Injection Vulnerability Discovery
+
+### Lab02: Path Traversal Vulnerability Discovery
 **Platform:** PortSwigger Web Security Academy  
 **Category:** Path Traversal  
 **Difficulty:** Apprentice/Practitioner
